@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javasegoodnice/javasegoodnice.iml" filepath="$PROJECT_DIR$/javasegoodnice/javasegoodnice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatisplus/springboot_mybatisplus.iml" filepath="$PROJECT_DIR$/springboot_mybatisplus/springboot_mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatisplus_twodata/springboot_mybatisplus_twodata.iml" filepath="$PROJECT_DIR$/springboot_mybatisplus_twodata/springboot_mybatisplus_twodata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tongweb_lean/tongweb_lean.iml" filepath="$PROJECT_DIR$/tongweb_lean/tongweb_lean.iml" />
+    </modules>
+  </component>
+</project>

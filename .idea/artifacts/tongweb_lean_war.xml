@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tongweb_lean:war">
+    <output-path>$PROJECT_DIR$/tongweb_lean/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tongweb_lean</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tongweb_lean-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tongweb_lean:war exploded" />
+    </root>
+  </artifact>
+</component>

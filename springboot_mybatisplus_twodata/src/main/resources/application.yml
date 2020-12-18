@@ -1,0 +1,26 @@
+server:
+  port: 8989
+##实现双数据源配置
+spring:
+  aop:
+    proxy-target-class: true
+    auto: true
+  datasource:
+    druid:
+      # 数据库1
+      db1:
+        url: jdbc:mysql://localhost:3306/db1?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+      db2:
+        url: jdbc:mysql://localhost:3306/db2?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
