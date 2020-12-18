@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e4da74-549a-485a-8fb0-ea918e095ec7" name="Default Changelist" comment="" />
+    <list default="true" id="d1e4da74-549a-485a-8fb0-ea918e095ec7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/springboot_mybatisplus/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mybatisplus/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -81,6 +86,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1loSRj0YYSUb7X4e8GRYT8ZyPyy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -302,12 +308,24 @@
       <workItem from="1608261947246" duration="10505000" />
       <workItem from="1608279986933" duration="1624000" />
       <workItem from="1608283565288" duration="1624000" />
-      <workItem from="1608285434142" duration="1001000" />
+      <workItem from="1608285434142" duration="2050000" />
     </task>
+    <task id="LOCAL-00001" summary="服务端口修改">
+      <created>1608287686896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608287686896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="服务端口修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务端口修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="202" key="#Inspections" timestamp="1608283724935">
@@ -334,6 +352,10 @@
       <screen x="78" y="0" width="1842" height="1080" />
     </state>
     <state x="621" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/78.0.1842.1080@78.0.1842.1080" timestamp="1608283615399" />
+    <state x="495" y="131" key="CommitChangelistDialog2" timestamp="1608287685376">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="495" y="131" key="CommitChangelistDialog2/78.0.1842.1080@78.0.1842.1080" timestamp="1608287685376" />
     <state x="779" y="298" key="FileChooserDialogImpl" timestamp="1608283838230">
       <screen x="78" y="0" width="1842" height="1080" />
     </state>
