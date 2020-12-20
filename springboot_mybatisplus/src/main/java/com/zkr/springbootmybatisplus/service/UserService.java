@@ -20,29 +20,29 @@ public class UserService {
 
     /**
      * 查询集合
+     *
      * @return
      */
-    public List<User> SelectUserlist(){
+    public List<User> SelectUserlist() {
         return userMapper.selectList(null);
     }
 
     /**
      * 保存或者根据主键修改对象
+     *
      * @param user
      * @return
      */
-    public Boolean saveUser(User user){
+    public Boolean saveUser(User user) {
         boolean flge = true;
-        try{
+        try {
             userMapper.insert(user);
-        }catch (Exception e){
+        } catch (Exception e) {
             flge = false;
             e.printStackTrace();
         }
         return flge;
     }
-
-
 
 
 }

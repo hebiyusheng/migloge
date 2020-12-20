@@ -6,9 +6,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/springboot_mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_mybatisplus_twodata/pom.xml" />
         <option value="$PROJECT_DIR$/tongweb_lean/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
       </list>
     </option>
   </component>

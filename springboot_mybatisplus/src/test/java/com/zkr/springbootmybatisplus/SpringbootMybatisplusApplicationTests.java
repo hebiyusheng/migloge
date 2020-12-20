@@ -8,17 +8,17 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringbootMybatisplusApplicationTests {
 
-	@Autowired
-	UserMapper userMapper;
+    @Autowired
+    UserMapper userMapper;
 
 
-	@Test
-	void contextLoads() {
-		userMapper.selectList(null).forEach(user -> {
-			System.out.println(user);
-		});
+    @Test
+    void contextLoads() {
+        userMapper.selectList(null).forEach(user -> {
+            System.out.println(user);
+        });
 
 
-	}
+    }
 
 }

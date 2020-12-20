@@ -21,14 +21,14 @@ public class UserController {
 
 
     @GetMapping("/list")
-    public List<User> SelectListUser(){
+    public List<User> SelectListUser() {
         return userService.SelectUserlist();
     }
 
 
     @PostMapping("/save")
-    public Boolean saveUser(){
-        User user = new User(null,"gqk",22,"admin@163.com");
+    public Boolean saveUser() {
+        User user = new User(null, "gqk", 22, "admin@163.com");
         return userService.saveUser(user);
     }
 

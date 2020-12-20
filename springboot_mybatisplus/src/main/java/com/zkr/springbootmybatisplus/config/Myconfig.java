@@ -15,6 +15,7 @@ public class Myconfig {
 
     /**
      * 分页插件
+     *
      * @return 分页插件的实例
      */
     @Bean

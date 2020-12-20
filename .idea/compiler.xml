@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tongweb_lean" />
         <module name="springboot_mybatisplus_twodata" />
-        <module name="springboot_mybatisplus" />
+        <module name="springboot_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot_mybatis" target="1.8" />
       <module name="springboot_mybatisplus" target="1.8" />
       <module name="springboot_mybatisplus_twodata" target="1.8" />
       <module name="tongweb_lean" target="1.5" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_mybatis" options="-parameters" />
       <module name="springboot_mybatisplus" options="-parameters" />
       <module name="springboot_mybatisplus_twodata" options="-parameters" />
     </option>
