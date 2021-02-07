@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 350px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 4px 3px #999999;
+}
+.box-backimages{
+    width: 100%;
+    height: 700px;
+    margin-top: 6%;
+    background-image: url("../images/veer-141039724.webp");
+}
