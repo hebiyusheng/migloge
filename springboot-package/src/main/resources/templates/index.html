@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+        <h1>SpringBoot-打包进行项目部署测试</h1>
+        <table border="1" style="width: 30%;margin-left: 20px;text-align: center">
+            <tr>
+                <td>编号</td>
+                <td>账号</td>
+                <td>密码</td>
+            </tr>
+            <tr th:each="user,userStat : ${user}">
+                <td th:text="${user.id}"></td>
+                <td th:text="${user.username}"></td>
+                <td th:text="${user.password}"></td>
+            </tr>
+        </table>
+</body>
+</html>

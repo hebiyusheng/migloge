@@ -1,0 +1,12 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: springbootPackage
+  datasource:
+    url: jdbc:mysql://localhost:3306/miboot?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    cache: false

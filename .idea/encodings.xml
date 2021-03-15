@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/excpro-data-comment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hebiyusheng/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/len01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/len02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/len03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mihome/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-fileupload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jar-war/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-package/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-toutiao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_email/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_mybatisplus_twodata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboottwocode/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

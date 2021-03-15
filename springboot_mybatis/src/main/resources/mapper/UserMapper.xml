@@ -11,6 +11,15 @@
         (#{id},#{name},#{age},#{email})
     </insert>
 
+    <insert id="insertuserTo" parameterType="com.zkr.springbootmybatis.entity.User">
+        <selectKey keyColumn="id" keyProperty="id" resultType="Integer" order="BEFORE">
+            select GET_PRIMK_MAX();
+        </selectKey>
+
+        INSERT INTO user (id,name,age,email) values (#{id},#{name},#{age},#{email});
+
+    </insert>
+
     <update id="UpdateUser" parameterType="com.zkr.springbootmybatis.entity.User">
         UPDATE
         user

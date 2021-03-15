@@ -7,5 +7,17 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/hebi</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="miboot@localhost" uuid="659ace7d-2652-4d71-84b3-ceada44d2c74">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/miboot</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="121.5.10.163" uuid="4f512b9e-9966-48a3-a581-6535467ae835">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://121.5.10.163:3306/miboot</jdbc-url>
+    </data-source>
   </component>
 </project>

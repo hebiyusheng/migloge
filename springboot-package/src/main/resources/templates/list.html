@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>编号</th>
+            <th>姓名</th>
+            <th>住址</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="user,userStat : ${user}">
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

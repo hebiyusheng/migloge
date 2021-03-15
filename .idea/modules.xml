@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/excpro-data-comment/excpro-data-comment.iml" filepath="$PROJECT_DIR$/excpro-data-comment/excpro-data-comment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hebiyusheng/hebiyusheng.iml" filepath="$PROJECT_DIR$/hebiyusheng/hebiyusheng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8texing/java8texing.iml" filepath="$PROJECT_DIR$/java8texing/java8texing.iml" />
       <module fileurl="file://$PROJECT_DIR$/javasegoodnice/javasegoodnice.iml" filepath="$PROJECT_DIR$/javasegoodnice/javasegoodnice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len01/len01.iml" filepath="$PROJECT_DIR$/len01/len01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len02/len02.iml" filepath="$PROJECT_DIR$/len02/len02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len03/len03.iml" filepath="$PROJECT_DIR$/len03/len03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mihome/mihome.iml" filepath="$PROJECT_DIR$/mihome/mihome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" filepath="$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jar-war/springboot-jar-war.iml" filepath="$PROJECT_DIR$/springboot-jar-war/springboot-jar-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-package/springboot-package.iml" filepath="$PROJECT_DIR$/springboot-package/springboot-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-toutiao/springboot-toutiao.iml" filepath="$PROJECT_DIR$/springboot-toutiao/springboot-toutiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_email/springboot_email.iml" filepath="$PROJECT_DIR$/springboot_email/springboot_email.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_mybatisplus_twodata/springboot_mybatisplus_twodata.iml" filepath="$PROJECT_DIR$/springboot_mybatisplus_twodata/springboot_mybatisplus_twodata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_swagger/springboot_swagger.iml" filepath="$PROJECT_DIR$/springboot_swagger/springboot_swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboottwocode/springboottwocode.iml" filepath="$PROJECT_DIR$/springboottwocode/springboottwocode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdemo/springdemo.iml" filepath="$PROJECT_DIR$/springdemo/springdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tongweb_lean/tongweb_lean.iml" filepath="$PROJECT_DIR$/tongweb_lean/tongweb_lean.iml" />
     </modules>
   </component>

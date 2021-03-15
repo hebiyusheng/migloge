@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/len01" />
+    <file type="web" url="file://$PROJECT_DIR$/len02" />
+    <file type="web" url="file://$PROJECT_DIR$/len03" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-jar-war" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-package" />
+    <file type="web" url="file://$PROJECT_DIR$/springdemo" />
     <file type="web" url="file://$PROJECT_DIR$/tongweb_lean" />
+    <file type="web" url="file://$PROJECT_DIR$/../src/main/java" />
+    <file type="web" url="file://$PROJECT_DIR$/../src/main/resources" />
+    <file type="web" url="file://$PROJECT_DIR$/../src/test/java" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -9,6 +18,21 @@
         <option value="$PROJECT_DIR$/springboot_mybatisplus_twodata/pom.xml" />
         <option value="$PROJECT_DIR$/tongweb_lean/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/springdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/hebiyusheng/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_email/pom.xml" />
+        <option value="$PROJECT_DIR$/springboottwocode/pom.xml" />
+        <option value="$PROJECT_DIR$/len01/pom.xml" />
+        <option value="$PROJECT_DIR$/len02/pom.xml" />
+        <option value="$PROJECT_DIR$/len03/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-package/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-toutiao/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jar-war/pom.xml" />
+        <option value="$PROJECT_DIR$/excpro-data-comment/pom.xml" />
+        <option value="$PROJECT_DIR$/mihome/pom.xml" />
       </list>
     </option>
   </component>

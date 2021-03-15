@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css"/>
+    <style>
+        #zuida{
+            width: 550px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 10%;
+        }
+        #box{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="zuida">
+        <h2 style="margin: 20px 0 30px 110px">数据库表字段注释调整</h2>
+        <div id="box">
+            <form class="layui-form" th:action="@{/excelUpdateTableAdminCloumn}" method="post">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">TableName</label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="tableName" required lay-verify="required" placeholder="请输入操作表名称" autocomplete="off"
+                               class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">RowNumber</label>
+                    <div class="layui-input-inline">
+                        <input type="number" name="endNumber" min="3" required lay-verify="required" placeholder="请输入读取行数" autocomplete="off"
+                               class="layui-input">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">只填写结束行号即可！</div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+                <p style="padding-left: 110px"><a th:href="@{/index}" href="#">返回首页</a></p>
+            </form>
+        </div>
+    </div>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/layui/2.5.7/layui.all.min.js"></script>
+<script>
+    //Demo
+    layui.use('form', function () {
+        var form = layui.form;
+        //监听提交
+        form.on('submit(formDemo)', function (data) {
+            //layer.msg(JSON.stringify(data.field));
+            return true;
+        });
+    });
+</script>
+</body>
+</html>

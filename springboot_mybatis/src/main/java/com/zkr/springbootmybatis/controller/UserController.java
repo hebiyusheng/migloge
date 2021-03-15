@@ -64,5 +64,24 @@ public class UserController {
         return  userMapper.listUser();
     }
 
+    /**
+     * 保存用户信息并且返回最大值
+     */
+    @RequestMapping("/insertUserTo")
+    public void insertUsrto(){
+        User user = new User();
+        user.setId(24L);
+        user.setAge(24);
+        user.setEmail("123123");
+        user.setName("新滩");
+        Integer integer = userMapper.insertuserTo(user);
+        System.out.println("影响操作行数"+integer);
+    }
+
+
+
+
+
+
 
 }

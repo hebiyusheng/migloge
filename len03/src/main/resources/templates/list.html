@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+    <style>
+        #stubox{
+            width: 340px;
+            height: 250px;
+            background-color: #f7f7f7;
+            border-radius: 6px;
+            box-shadow: 5px 5px 10px #666666;
+            padding-top: 20px;
+            padding-left: 40px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 20%;
+            left: 40%;
+            display: none;
+        }
+        #stubox table tr{
+            height: 40px;
+        }
+        #spanss:hover{
+            font-size: 30px;
+        }
+        #spanss{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 24px;
+            transition: 0.5s;
+        }
+
+        /*
+            学生信息修改
+        */
+        #stuupdate{
+            width: 340px;
+            height: 250px;
+            background-color: #f7f7f7;
+            border-radius: 6px;
+            box-shadow: 5px 5px 10px #666666;
+            padding-top: 20px;
+            padding-left: 40px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 20%;
+            left: 40%;
+            display: none;
+        }
+        #spanssupdate{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 24px;
+            transition: 0.5s;
+        }
+        #spanssupdate:hover{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1" width="500px" cellspacing="1" style="text-align: center" align="center">
+    <caption><h3>学生花名册</h3></caption>
+    <thead>
+        <tr>
+            <th>编号</th>
+            <th>姓名</th>
+            <th>住址</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="stu,userStat : ${student}">
+            <td th:text="${stu.stuid}"></td>
+            <td th:text="${stu.stuname}"></td>
+            <td th:text="${stu.stuaddress}"></td>
+            <td>
+                <a href="#"><button th:onclick="bianji([[${stu}]])" style="background-color: green">编辑</button></a>
+                <a th:href="@{'/delstudent/'+${stu.stuid}}" href="#"><button style="background-color: red">删除</button></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <button onclick="addstu()" style="width: 100%;height: 100%">新增学生</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="stubox">
+    <span id="spanss">X</span>
+    <h3 style="">进行学生数据添加</h3>
+    <form th:action="@{/insertstu}" method="post">
+        <table border="1" cellspacing="1">
+            <tr>
+                <td>学生姓名：</td>    
+                <td>
+                    <input id="stuid" name="stuid" type="hidden"/>
+                    <input id="stuname" autocomplete="off" required name="stuname" style="height: 30px" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td>学生地址：</td>
+                <td><input id="stuaddress" autocomplete="off" required name="stuaddress" style="height: 30px" type="text"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input style="width: 100%; height: 34px" type="submit" value="提交信息"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<!--学生数据修改-->
+
+<div id="stuupdate">
+    <span id="spanssupdate">X</span>
+    <h3 style="">进行学生数据修改</h3>
+    <form th:action="@{/updatestu}" method="post">
+        <table border="1" cellspacing="1">
+            <tr>
+                <td>学生姓名：</td>
+                <td>
+                    <input id="stuidupdate" name="stuid" type="hidden"/>
+                    <input id="stunameupdate" autocomplete="off" required name="stuname" style="height: 30px" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td>学生地址：</td>
+                <td><input id="stuaddressupdate" autocomplete="off" required name="stuaddress" style="height: 30px" type="text"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input style="width: 100%; height: 34px" type="submit" value="提交修改"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+
+
+<script>
+    function addstu(){
+        document.getElementById("stubox").style.display = "block";
+    }
+    /**
+     * 编辑学生信息
+     */
+    function bianji(stu) {
+        document.getElementById("stuupdate").style.display = "block";
+        document.getElementById("stuidupdate").value = stu.stuid;
+        document.getElementById("stunameupdate").value = stu.stuname;
+        document.getElementById("stuaddressupdate").value = stu.stuaddress;
+    }
+    var elementspan = document.getElementById("spanss");
+    elementspan.onclick=function () {
+        document.getElementById("stubox").style.display = "none";
+    }
+    var elementspanupdate = document.getElementById("spanssupdate");
+    elementspanupdate.onclick=function () {
+        document.getElementById("stuupdate").style.display = "none";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zkr.excprodatacomment.mapper.TablesAllNameMapper">
+
+
+    <resultMap id="tablesNameAll" type="com.zkr.excprodatacomment.entity.TablesAllName">
+        <result column="Tables_in_zy_claim" property="tablesName" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="getallTableName" resultMap="tablesNameAll">
+        show tables
+    </select>
+</mapper>

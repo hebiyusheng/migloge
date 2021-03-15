@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>全文检索特殊字符</title>
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css"/>
+    <style>
+        #box{
+            width: 450px;
+            height: 400px;
+            margin: 0 auto;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h2 style="margin: 0 0 30px 110px">MySQL全文检索特殊字符脱敏</h2>
+        <form class="layui-form" action="#" method="post" id="addGoodsForm">
+            <div class="layui-form-item">
+                <label class="layui-form-label">脱敏安全码</label>
+                <div class="layui-input-block">
+                    <input type="text" name="secariryCode" required  lay-verify="required" placeholder="请输入安全码" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">特殊字符</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="searchStr" required lay-verify="required" placeholder="请输入特殊字符" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">模糊匹配原则即可！</div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">替换字符</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="thStr" required lay-verify="required" placeholder="请输入替换字符" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">需要替换的字符！</div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">源数据库</label>
+                <div class="layui-input-block">
+                    <select name="searclDatabases" lay-verify="required">
+                        <option value=""></option>
+                        <option value="zy_claim">zy_claim</option>
+                        <option value="zy_claim_beifen">zy_claim_beifen</option>
+                        <option value="暂无可用">暂无可用</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/layui/2.5.7/layui.all.min.js"></script>
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form;
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            //封装对象信息
+            let secarchObj = {
+                secariryCode: data.field.secariryCode,
+                searchStr: data.field.searchStr,
+                thStr: data.field.thStr,
+                searclDatabases:data.field.searclDatabases
+            }
+            $("#addGoodsForm")[0].reset();
+            layui.form.render();
+            //发送后台接口
+            var loading;
+            $.ajax({
+                url:"/thsearchcloumnCome",
+                type:"POST",
+                data:secarchObj,
+                beforeSend: function(){
+                    loading = layer.msg('数据更改中...', {icon: 16,shade: [0.5, '#f5f5f5'],scrollbar: false,offset: 'auto', time:100000});
+                },
+                success: function(data){
+                    if (data==null){
+                        //关闭所有的弹窗
+                        layer.close(loading);
+                        layer.msg('执行失败！',{time: 1000,offset: 'auto'});
+                    }
+                    if (data=="success"){
+                        //关闭所有的弹窗
+                        layer.close(loading);
+                        layer.msg('执行成功！',{time: 1000,offset: 'auto'});
+                    }
+                    if (data == "error"){
+                        layer.close(loading);
+                        layer.msg('执行失败！',{time: 1000,offset: 'auto'});
+                    }
+                }
+            })
+            return false;
+        });
+    });
+</script>

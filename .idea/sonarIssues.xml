@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/dummy.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/4f512b9e-9966-48a3-a581-6535467ae835/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Git/gitresource/music-git/woodwhales-music/src/main/resources/dev/application-dev.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/Config/MyBatisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/ExcproDataCommentApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/config/DruidConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/controller/CommnetEntityController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/controller/ExcelController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/controller/SearchCloumnMeaasgeData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/controller/TablesAllNameController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/CommentEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/ExcelPOJO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/SearchCloumnsMeaasge.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/TableNameORCloumn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/TablesAllName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/search/SearchCloumnsMeaasge.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/entity/search/SearchPageValue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/interceptor/LogInter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/interceptor/LogInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/mapper/CommnetEntityMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/mapper/SearchCloumnsMeaasgeMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/mapper/TablesAllNameMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/myinterface/excelRescoure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/service/CommentEntityService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/service/SearchCloumnsMeaasgeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/service/TablesAllNameService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/service/impl/CommentEntityServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/service/impl/SearchCloumnsMeaasgeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/service/impl/TablesAllNameServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/util/CommentEntitySumExcelPojoCloum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/util/SerachCloumnDisUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/util/excelRead.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/java/com/zkr/excprodatacomment/util/excelWrite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/banner.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/error/4xx.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/error/5xx.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/log4j2.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/logback-spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/mapper/CommnetEntity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/mapper/SearchCloumnsMeaasgeMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/mapper/TablesAllName.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/sql/createSearchClomun.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/sql/createSearchCloum.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/templates/commentlist.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/templates/excelpoi.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/templates/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/templates/searchCloumn.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/main/resources/templates/tableall.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/excpro-data-comment/src/test/java/com/zkr/excprodatacomment/ExcproDataCommentApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/0225/One.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/ClassTest/Boom.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/ClassTest/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/ClassTest/Test1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/InterTest/ClassMess.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/InterTest/Duibiadmin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/InterTest/Formula.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/InterTest/Users.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/xinte/MyInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/xinte/One.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java8texing/src/xinte/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len01/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len01/src/main/java/com/zkr/len01/Len01Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len01/src/main/java/com/zkr/len01/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len01/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len01/src/main/resources/templates/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len02/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len02/src/main/java/com/zkrj/len02/Len02Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len02/src/main/java/com/zkrj/len02/controller/HomeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len02/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len02/src/main/resources/templates/home.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/java/com/zkr/len03/Len03Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/java/com/zkr/len03/Student.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/java/com/zkr/len03/controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/java/com/zkr/len03/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/java/com/zkr/len03/mapper/StudentMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/java/com/zkr/len03/pojo/Student.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/templates/error/4XX.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/templates/error/4xx.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/templates/error/5XX.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/templates/error/5xx.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/templates/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/len03/src/main/resources/templates/list.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/src/main/java/com/zkr/springbootjarwar/SpringbootJarWarApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/src/main/java/com/zkr/springbootjarwar/Springbootjarwar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/src/main/java/com/zkr/springbootjarwar/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/src/main/java/com/zkr/springbootjarwar/enrity/Mesages.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/src/main/java/com/zkr/springbootjarwar/mapper/MesagesMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-jar-war/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/SpringbootPackageApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/annotation/ResponseResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/config/WebAppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/controller/AdminstartController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/controller/RedisController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/controller/TestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/entity/Adminstart.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/entity/R.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/handler/ResponseResultHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/interceptor/ResponseResultInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/mapper/AdminstartMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/util/RedisUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/java/com/zkr/springbootpackage/util/ResultCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/resources/templates/error/4xx.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/resources/templates/error/5xx.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/resources/templates/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-package/src/main/resources/templates/list.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/SpringbootRedisApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/entity/entity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/mapper/UserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/service/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/service/Uservice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/java/com/zkr/springbootredis/service/impl/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/main/resources/templates/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-redis/src/test/java/com/zkr/springbootredis/SpringbootRedisApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-toutiao/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-toutiao/src/main/java/com/zkr/springboottoutiao/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-toutiao/src/main/java/com/zkr/springboottoutiao/util/JsoupUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-toutiao/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-toutiao/src/main/resources/templates/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot-toutiao/src/test/java/com/zkr/springboottoutiao/SpringbootToutiaoApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_email/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_email/src/main/java/com/zkr/springbootemail/controller/EmailController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_email/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_email/src/test/java/com/zkr/springbootemail/SpringbootEmailApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/zkr/springbootmybatis/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/zkr/springbootmybatis/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/zkr/springbootmybatis/mapper/UserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatis/src/main/resources/mapper/UserMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatisplus_twodata/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatisplus_twodata/src/main/java/com/zkr/springboottwodata/SpringbootMybatisplusTwodataApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatisplus_twodata/src/main/java/com/zkr/springboottwodata/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatisplus_twodata/src/main/java/com/zkr/springboottwodata/mapper/UserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatisplus_twodata/src/main/java/com/zkr/springboottwodata/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_mybatisplus_twodata/src/main/java/com/zkr/springboottwodata/service/impl/UserServiceimpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboot_swagger/src/test/java/com/zkr/springbootswagger/SpringbootSwaggerApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboottwocode/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboottwocode/src/main/java/com/zkr/springboottwocode/controller/ImageController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboottwocode/src/main/java/com/zkr/springboottwocode/controller/QRcodeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboottwocode/src/main/java/com/zkr/springboottwocode/util/ZxingUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springboottwocode/src/main/resources/templates/inmg.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ideaDemoPriject/demos/src/Admin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/PubServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/approve/service/ApproveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/dlosspers/service/DlossPersService2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/dlosspers/util/LossPersonFeeType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/ecif/service/ConnectionECIFService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/ecif/vo/CustomerMobileEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/ecommerce/api/EcommerceApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/ecommerce/service/EcommerceService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/ecommerce/util/EcommerceConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/ecommerce/vo/ClaimHisResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/elasticsearchbusiness/api/ElasticsearchBusinessApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/elasticsearchbusiness/busresultvo/PolicyInfoVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/endcase/service/EndCaseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/guangdongfeichesendclaiminfo/vo/BASE_PART.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/hainanmedical/api/LogInfoApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/hainanmedical/service/HNacciRegistService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/hainanmedical/service/HnMedicalService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/hainanmedical/service/util/Validator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/hainanmedical/service/util/ValidatorEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/hainanmedical/util/ExcelDataCount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/claim/schedule/vo/ClaimHistoryVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/claim-server/src/main/java/ins/platform/common/CxfConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/javaWork/code/claim/search-server/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -44,4 +44,7 @@ public interface UserMapper {
      */
     User findById(Long id);
 
+
+    Integer insertuserTo(User user);
+
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table tr{
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+
+        <h3><span th:text="${session.tablename}"></span>&nbsp;&nbsp;数据表结构描述信息</h3>
+        <table id="tabl">
+            <tr>
+                <td>字段名称</td>
+                <td>字段类型</td>
+                <td>字段描述</td>
+            </tr>
+            <tr th:each="tab,tablessage:${tablemessage}">
+                <td style="width: 300px" th:text="${tab.getColumnName()}"></td>
+                <td style="width: 250px" th:text="${tab.getColumnType()}"></td>
+                <td style="width: auto" th:text="${tab.getColumnComment()}"></td>
+            </tr>
+        </table>
+        <p>数据字段共：<span th:text="${tablemessage.size()}"></span>&nbsp;&nbsp;个</p>
+        <a href="#" th:href="@{/tableallName}"><h3>返回数据列表</h3></a>
+</body>
+<script type="text/javascript">
+    //js实现table表格中tr渐变色
+    function SetTrColor(tableId) {
+        var table = document.getElementById(tableId);//根据table的 id 属性值获得对象
+        var rows = table.getElementsByTagName("tr");//获取table类型的tr元素的列表
+        for (var i = 0; i < rows.length; i++) {
+            if (i % 2 == 0) {
+                rows[i].style.backgroundColor = "#ececec";//偶数行时背景色为#ececec
+            }
+            else {
+                rows[i].style.backgroundColor = "White";//单数行时背景色为white
+            }
+        }
+    }
+    //文档全部加载完成之后执行
+    window.onload=function trColor() {
+        //执行渐变色函数
+        SetTrColor("tabl");
+    }
+</script>
+
+</html>
