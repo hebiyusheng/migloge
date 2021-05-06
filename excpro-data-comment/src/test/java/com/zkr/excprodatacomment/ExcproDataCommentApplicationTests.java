@@ -3,12 +3,18 @@ package com.zkr.excprodatacomment;
 import com.zkr.excprodatacomment.entity.ExcelPOJO;
 import com.zkr.excprodatacomment.util.ExcelRead;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import java.util.List;
 
 @SpringBootTest
 class ExcproDataCommentApplicationTests {
+
+    @Autowired
+    private RedisTemplate<String, Object> redisTemplate;
+
 
     @Test
     void contextLoads() throws Exception  {
@@ -39,5 +45,10 @@ class ExcproDataCommentApplicationTests {
         }
 
     }
+
+    public void test11(){
+    }
+
+
 
 }

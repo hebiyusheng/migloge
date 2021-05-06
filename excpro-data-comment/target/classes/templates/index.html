@@ -2,12 +2,68 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>数据库辅助系统</title>
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css"/>
 </head>
 <body>
-        <h2>数据字段类型导出</h2>
-        <p>1、<a th:href="@{/tableallName}" href="#">数据库表列表</a></p>
-        <p>2、<a th:href="@{/excelpoi}" href="#">数据库信息字段注释跟新</a></p>
-        <p>3、<a th:href="@{/searchCloumnMessage}" href="#">全文检索特殊字符处理</a></p>
+        <div>
+            <ul class="layui-nav layui-bg-green" lay-filter="">
+                <li class="layui-nav-item"><h2 style="font-size: 24px;margin-right: 14px">数据库辅助系统</h2></a></li>
+                <li class="layui-nav-item layui-this"><a href="">MySQL</a></li>
+                <li class="layui-nav-item"><a href="">Oracle</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">NOSQL</a>
+                    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                        <dd><a href="">Redis</a></dd>
+                        <dd><a href="">MongDB</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item"><a href="">Excel/Word</a></li>
+                <div style="float: right">
+                    <li class="layui-nav-item">
+                        <a href="">控制中心<span class="layui-badge">9</span></a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="">个人主页<span class="layui-badge-dot"></span></a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href=""><img src="//t.cn/RCzsdCq" class="layui-nav-img">何必余生</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;">修改信息</a></dd>
+                            <dd><a href="javascript:;">安全管理</a></dd>
+                            <dd><a href="javascript:;">退出登录</a></dd>
+                        </dl>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <div style="padding: 20px; background-color: #F2F2F2;">
+            <div class="layui-row layui-col-space15">
+                <div class="layui-col-md6">
+                    <div class="layui-card">
+                        <div class="layui-card-header"><h2>MySQL数据库辅助器</h2></div>
+                        <div class="layui-card-body">
+                            <p>1、<a th:href="@{/tableallName}" href="#">数据库表列表</a></p>
+                            <p>2、<a th:href="@{/excelpoi}" href="#">数据库信息字段注释跟新</a></p>
+                            <p>3、<a th:href="@{/searchCloumnMessage}" href="#">全文检索特殊字符处理</a></p>
+                            <p>4、<a th:href="@{/queryAllLongtext}">大字段数据类型处理</a></p>
+                            <p>4、<a>数据字段同步</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-col-md6">
+                    <div class="layui-card">
+                        <div class="layui-card-header"><h2>Redis辅助区</h2></div>
+                        <div class="layui-card-body">
+                            <p>1、清理缓存</p>
+                            <p>2、FLUSHDB</p>
+                            <p>3、FLUSHALL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/layui/2.5.7/layui.all.min.js"></script>
 </body>
 </html>

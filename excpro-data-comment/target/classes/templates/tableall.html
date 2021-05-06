@@ -39,9 +39,10 @@
     </style>
 </head>
 <body>
-        <h2>zy_claim数据库所有表汇总</h2>
+        <h2>RT_DEV_PB_CLAIM数据库所有表汇总</h2>
         <table>
-            <td th:each="tables, tablesAll:${tablesAll}"><a href="#" th:href="@{'/getcommentBiao/'+${tables.getTablesName()}}" ><span th:text="${tables.getTablesName()}"></span></a></td>
+            <td th:each="tables, tablesAll:${tablesAll}"><a href="#" th:href="@{'/getblongtextall/'+${tables.getTablesName()}}" ><span th:text="${tables.getTablesName()}"></span></a></td>
         </table>
+        <p><a th:href="@{/}">返回首页</a></p>
 </body>
 </html>

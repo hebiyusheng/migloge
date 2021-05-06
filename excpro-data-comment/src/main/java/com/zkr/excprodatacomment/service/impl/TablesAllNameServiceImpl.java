@@ -4,8 +4,6 @@ import com.zkr.excprodatacomment.entity.TablesAllName;
 import com.zkr.excprodatacomment.mapper.TablesAllNameMapper;
 import com.zkr.excprodatacomment.service.TablesAllNameService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,13 +14,13 @@ import java.util.List;
  * @Motto "何必余生、及时行乐、Good luck mi"
  */
 @Service
-@CacheConfig(cacheNames = "tableName")
+//@CacheConfig(cacheNames = "tableName")
 public class TablesAllNameServiceImpl implements TablesAllNameService {
 
     @Autowired
     private TablesAllNameMapper tablesAllNameMapper;
 
-    @Cacheable
+   // @Cacheable
     @Override
     public List<TablesAllName> getallTableName() {
         return tablesAllNameMapper.getallTableName();

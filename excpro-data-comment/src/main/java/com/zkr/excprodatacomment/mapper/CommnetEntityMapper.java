@@ -1,5 +1,6 @@
 package com.zkr.excprodatacomment.mapper;
 
+import com.zkr.excprodatacomment.entity.Blongtext;
 import com.zkr.excprodatacomment.entity.CommentEntity;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -15,4 +16,7 @@ import java.util.List;
 public interface CommnetEntityMapper {
     List<CommentEntity> listcomment(String tablesName);
     void setColumnCommentMessage(CommentEntity commentEntity,@Param("tableName") String tableName);
+    List<Blongtext> getblogtext();
+    List<Blongtext> blongtextall(String tablesName);
+    void updateCloumnMessage(Blongtext blongtext);
 }

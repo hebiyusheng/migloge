@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table tr{
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<h3 th:if="${getblogtext.size()>0}"><span th:text="${getblogtext.get(0).getTable_name()}"></span>&nbsp;&nbsp;数据表结构描述信息</h3>
+<table id="tabl">
+    <h2 th:if="${getblogtext.size()==0}">没有数据展示、请返回</h2>
+    <tr th:if="${getblogtext.size()>0}">
+        <td>表名</td>
+        <td>表注释</td>
+        <td>列名字段</td>
+        <td>列注释</td>
+        <td>列的排序</td>
+        <td>默认值</td>
+        <td>是否为空</td>
+        <td>数据类型</td>
+        <td>字符最大长度</td>
+        <td>数值精度</td>
+        <td>小数精度</td>
+        <td>列类型</td>
+        <td>KEY</td>
+        <td>额外说明</td>
+    </tr>
+    <tr th:if="${getblogtext.size()>0}" th:each="tab,tablessage:${getblogtext}">
+        <td style="width: 300px" th:text="${tab.getTable_name()}"></td>
+        <td style="width: 300px" th:text="${tab.getTable_comment()}"></td>
+        <td style="width: 300px" th:text="${tab.getColumn_name()}"></td>
+        <td style="width: 300px" th:text="${tab.getColumn_comment()}"></td>
+        <td style="width: 300px" th:text="${tab.getOrdinal_position()}"></td>
+        <td style="width: 300px" th:text="${tab.getColumn_default()}"></td>
+        <td style="width: 300px" th:text="${tab.getIs_nullable()}"></td>
+        <td style="width: 300px" th:text="${tab.getData_type()}"></td>
+        <td style="width: 300px" th:text="${tab.getCharacter_maximum_length()}"></td>
+        <td style="width: 300px" th:text="${tab.getNumeric_precision()}"></td>
+        <td style="width: 300px" th:text="${tab.getNumeric_scale()}"></td>
+        <td style="width: 300px" th:text="${tab.getColumn_type()}"></td>
+        <td style="width: 300px" th:text="${tab.getColumn_key()}"></td>
+        <td style="width: 300px" th:text="${tab.getExtra()}"></td>
+    </tr>
+</table>
+<p th:if="${getblogtext.size()>0}">数据字段共：<span  th:text="${getblogtext.size()}"></span>&nbsp;&nbsp;个</p>
+<a href="#" th:href="@{/}"><h3>返回数据列表</h3></a>
+</body>
+<script type="text/javascript">
+    //js实现table表格中tr渐变色
+    function SetTrColor(tableId) {
+        var table = document.getElementById(tableId);//根据table的 id 属性值获得对象
+        var rows = table.getElementsByTagName("tr");//获取table类型的tr元素的列表
+        for (var i = 0; i < rows.length; i++) {
+            if (i % 2 == 0) {
+                rows[i].style.backgroundColor = "#ececec";//偶数行时背景色为#ececec
+            }
+            else {
+                rows[i].style.backgroundColor = "White";//单数行时背景色为white
+            }
+        }
+    }
+    //文档全部加载完成之后执行
+    window.onload=function trColor() {
+        //执行渐变色函数
+        SetTrColor("tabl");
+    }
+</script>
+
+</html>

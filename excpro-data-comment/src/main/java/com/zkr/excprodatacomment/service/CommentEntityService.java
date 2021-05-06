@@ -1,5 +1,6 @@
 package com.zkr.excprodatacomment.service;
 
+import com.zkr.excprodatacomment.entity.Blongtext;
 import com.zkr.excprodatacomment.entity.CommentEntity;
 import org.apache.ibatis.annotations.Param;
 
@@ -13,4 +14,7 @@ import java.util.List;
 public interface CommentEntityService {
     List<CommentEntity> listcomment(String tablesName);
     void setColumnCommentMessage(CommentEntity commentEntity,@Param("tableName") String tableName);
+    List<Blongtext> getblogtext();
+    List<Blongtext> blongtextall(String tablesName);
+    void updateCloumnMessage(Blongtext blongtext);
 }

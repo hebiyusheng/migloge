@@ -19,7 +19,7 @@
                 <td>字段描述</td>
             </tr>
             <tr th:each="tab,tablessage:${tablemessage}">
-                <td style="width: 300px" th:text="${tab.getColumnName()}"></td>
+                <td  th:text="${tab.getColumnName()}"></td>
                 <td style="width: 250px" th:text="${tab.getColumnType()}"></td>
                 <td style="width: auto" th:text="${tab.getColumnComment()}"></td>
             </tr>

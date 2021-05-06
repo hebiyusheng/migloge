@@ -6,7 +6,7 @@
 
 
     <resultMap id="tablesNameAll" type="com.zkr.excprodatacomment.entity.TablesAllName">
-        <result column="Tables_in_zy_claim" property="tablesName" jdbcType="VARCHAR"/>
+        <result column="Tables_in_rt_dev_pb_claim" property="tablesName" jdbcType="VARCHAR"/>
     </resultMap>
 
     <select id="getallTableName" resultMap="tablesNameAll">

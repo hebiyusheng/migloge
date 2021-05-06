@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table tr{
+            height: 24px;
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css"/>
+</head>
+<body style="padding: 20px; background-color: #F2F2F2;">
+<div class="layui-card">
+    <div style="height: 60px;line-height: 60px;font-size: 20px" class="layui-card-header">
+        <h3><span th:if="${blongtext.size()>0}" th:text="${blongtext.get(0).getTable_name()}"></span>&nbsp;&nbsp;数据表结构描述信息
+            <a style="float: right; margin-left: 20px" href="#" id="Uatbtn"><button class="layui-btn layui-btn-danger">数据字段注释同步UAT</button></a>
+            <a style="float: right; margin-left: 20px" href="#" th:href="@{/tableallName}"><button class="layui-btn layui-btn-normal">返回数据列表</button></a>
+        </h3>
+    </div>
+    <div class="layui-card-body">
+        <table id="newsList" lay-filter="newsList" class="layui-table">
+            <tbody>
+            <tr>
+                <td>列名字段</td>
+                <td>列注释</td>
+                <td>列的排序</td>
+                <td>默认值</td>
+                <td>是否为空</td>
+                <td>数据类型</td>
+                <td>字符最大长度</td>
+                <td>数值精度</td>
+                <td>小数精度</td>
+                <td>列类型</td>
+                <td>KEY</td>
+                <td>额外说明</td>
+                <td style="text-align: center">操作</td>
+
+            </tr>
+            <tr th:if="${blongtext.size()>0}" th:each="tab,tablessage:${blongtext}">
+                <td  th:text="${tab.getColumn_name()}"></td>
+                <td style="width: 240px" th:text="${tab.getColumn_comment()}"></td>
+                <td  th:text="${tab.getOrdinal_position()}"></td>
+                <td  th:text="${tab.getColumn_default()}"></td>
+                <td  th:text="${tab.getIs_nullable()}"></td>
+                <td  th:text="${tab.getData_type()}"></td>
+                <td  th:text="${tab.getCharacter_maximum_length()}"></td>
+                <td  th:text="${tab.getNumeric_precision()}"></td>
+                <td  th:text="${tab.getNumeric_scale()}"></td>
+                <td  th:text="${tab.getColumn_type()}"></td>
+                <td  th:text="${tab.getColumn_key()}"></td>
+                <td  th:text="${tab.getExtra()}"></td>
+                <td style="text-align: center">
+                    <button type="button" data-method="notice" class="layui-btn buts" th:value="${tablessage.index}">编辑</button>
+                    <button type="button" disabled class="layui-btn layui-btn-disabled">删除</button>
+                </td>
+            </tr>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    <blockquote class="layui-elem-quote">
+        <p th:if="${blongtext.size()>0}">数据字段共：<span th:text="${blongtext.size()}"></span>&nbsp;&nbsp;个</p>
+    </blockquote>
+    <div>
+        <a href="#" th:href="@{/tableallName}"><button class="layui-btn">返回数据列表</button></a>
+    </div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js" th:src="@{https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js}"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/layui/2.5.7/layui.all.min.js" th:src="@{https://cdn.bootcdn.net/ajax/libs/layui/2.5.7/layui.all.min.js}"></script>
+<script  th:inline="javascript" type="text/javascript">
+    //临时缓存区
+    window.cloumObj = [[${blongtext}]];
+    window.cloumindex;
+    layui.use(['form','layer','laydate','table','laytpl'],function(){
+        var form = layui.form,
+            layer = parent.layer === undefined ? layui.layer : top.layer,
+            $ = layui.jquery,
+            laydate = layui.laydate,
+            laytpl = layui.laytpl,
+            table = layui.table;
+            //触发事件
+            var active = {
+                notice: function(){
+                    //示范一个公告层
+                    layer.open({
+                        type: 2
+                        ,title: true //不显示标题栏
+                        ,closeBtn: false
+                        ,area: ["1000px", "100%"]
+                        ,shade: 0.8
+                        ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                        ,btnAlign: 'c'
+                        ,moveType: 0 //拖拽模式，0或者1
+                        ,content: [[@{/toUpdateColumpage}]]
+                        ,title: '字段信息更新'
+                        ,success: function(layero,index){
+                        var btn = layero.find('#buiyu');
+                        btn.find('.tijiaoxiu').attr({
+                            href: 'http://www.layui.com/'
+                            ,target: '_blank'
+                        });
+                    }
+                    })
+                }
+            };
+            $('#newsList .buts').on('click', function(){
+                cloumindex = this.value;
+                var othis = $(this), method = othis.data('method');
+                active[method] ? active[method].call(this, othis) : '';
+            });
+
+            $("#Uatbtn").on('click',function () {
+                console.log(cloumObj);
+                var cloumnJsonObject = JSON.stringify(cloumObj);
+                //发送ajax进行向UAT服务发送数据
+                $.ajax({
+                    url: 'http://localhost:8989/getTableuat',
+                    type:'post',
+                    data:{getblogtext:cloumnJsonObject},
+                    beforeSend:function () {
+                        this.layerIndex = layer.load(0, { shade: [0.5, '#393D49'] });
+                    },
+                    success:function(data){
+                        if(data == 'ERROR'){
+                            layer.msg(data,{icon: 5});//失败的表情
+                            time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                            return;
+                        }else{
+                            layer.msg(data, {
+                                icon: 6,//成功的表情
+                                time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                            }, function(){
+                                location.reload();
+                            });
+                        }
+                    }
+                });
+            })
+    })
+</script>
+<script th:inline="none"/>
+</body>
+</html>
